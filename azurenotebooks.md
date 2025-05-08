@@ -41,4 +41,25 @@ plt.show()
 ![image](https://github.com/user-attachments/assets/176a988f-d360-442a-9d5d-1291e56f4615)
 
 
+# Linear Regression with Scikit-Learn
+
+# Pick the Linear Regression model and instantiate it
+model = LinearRegression(fit_intercept=True)
+
+# Fit/build the model
+model.fit(yearsBase[:, np.newaxis], meanBase)
+mean_predicted = model.predict(yearsBase[:, np.newaxis])
+
+# Generate a plot like the one in the previous exercise
+plt.scatter(yearsBase, meanBase)
+plt.plot(yearsBase, mean_predicted)
+plt.title('scatter plot of mean temp difference vs year')
+plt.xlabel('years', fontsize=12)
+plt.ylabel('mean temp difference', fontsize=12)
+plt.show()
+
+print(' y = {0} * x + {1}'.format(model.coef_[0], model.intercept_))
+
+![image](https://github.com/user-attachments/assets/dbb1e142-29fd-459c-bfa3-79523ae7adb3)
+
 
