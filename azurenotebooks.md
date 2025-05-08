@@ -62,4 +62,13 @@ print(' y = {0} * x + {1}'.format(model.coef_[0], model.intercept_))
 
 ![image](https://github.com/user-attachments/assets/dbb1e142-29fd-459c-bfa3-79523ae7adb3)
 
+# Create Linear Regression with Seaborn
+plt.scatter(years, mean)
+plt.title('scatter plot of mean temp difference vs year')
+plt.xlabel('years', fontsize=12)
+plt.ylabel('mean temp difference', fontsize=12)
+sns.regplot(x=yearsBase, y=meanBase)
+plt.show()
+
+![image](https://github.com/user-attachments/assets/15ec14d3-19e9-4dd4-a9bb-700700a2f1e7)
 
