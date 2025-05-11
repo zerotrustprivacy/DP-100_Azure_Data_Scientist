@@ -1,6 +1,9 @@
 # DP-100 Azure Data Scientist
 This repository contains my notes for preparing for the exam Microsoft [Microsoft Certified: Azure Data Scientist Associate] (https://learn.microsoft.com/en-us/credentials/certifications/azure-data-scientist/?practice-assessment-type=certification).
 
+## Labs
+https://github.com/MicrosoftLearning/mslearn-azure-ml/tree/refs/heads/main
+
 ## Study Guide
 https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-100
 
